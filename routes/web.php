@@ -14,3 +14,6 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('parse', 'ParserController@parse');
+$router->get('build', 'ParserController@build');

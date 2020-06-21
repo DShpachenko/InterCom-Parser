@@ -6,7 +6,10 @@
     "type": "project",
     "require": {
         "php": "^7.2.5",
-        "laravel/lumen-framework": "^7.0"
+        "erusev/parsedown": "^1.7",
+        "laravel/lumen-framework": "^7.0",
+        "paquettg/php-html-parser": "^2.2",
+        "ext-json": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.9.1",
